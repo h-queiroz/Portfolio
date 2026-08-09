@@ -1,0 +1,82 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	background: #16181E;
+	color: #B39C4D;
+	font-family: "Montserrat", sans-serif;
+	font-size: 1.3rem;
+}
+
+header {
+	display: flex;
+	border-bottom: 2px solid #B39C4D;
+	color: #CBCED5;
+}
+
+header .logo {
+	display: flex;
+	align-items: center;
+}
+
+header nav {
+	/* background-color: red; */
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header nav a {
+	/* background-color: red; */
+	margin: 0 5px;
+	text-decoration: none;
+	color: #CBCED5;
+	transition: all 0.1s ease-out;
+	display: flex;
+	width: 150px;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+header nav a:hover {
+	font-weight: bolder;
+}
+
+main {
+
+}
+
+main section {
+	border-bottom: 1px solid #B39C4D;
+}
+
+main section p {
+	color: #F5F5F5;
+}
+
+main section .project-box {
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	border: 2px solid #B39C4D;
+	border-radius: 15px;
+	margin: 20px;
+	display: inline-block;
+}
+
+footer {
+	width: 100vw;
+	height: 90px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	border-top: 1px solid #B39C4D;
+}
+
+/**/
+/* .container { */
+/* 	max-width: 1000px; */
+/* 	margin: auto; */
+/* } */
